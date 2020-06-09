@@ -1,7 +1,9 @@
 package com.haojing.mail.common.api;
 
-
-
+/**
+ * @author jiange
+ * @date 2020/6/9 15:37
+ */
 public class CommonResult<T> {
     private long code;
     private String message;

@@ -40,14 +40,15 @@
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
         </table>-->
         <!--后台用户表-->
-        <table tableName="ums_admin">
+
+       <!-- <table tableName="ums_admin">
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
         </table>
-        <!--后台用户角色表-->
+        &lt;!&ndash;后台用户角色表&ndash;&gt;
         <table tableName="ums_role">
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
         </table>
-        <!--后台用户权限表-->
+        &lt;!&ndash;后台用户权限表&ndash;&gt;
         <table tableName="ums_permission">
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
         </table>
@@ -59,6 +60,21 @@
         </table>
         <table tableName="ums_admin_permission_relation">
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+        </table>-->
+
+       <!-- 商品信息表-->
+        <table tableName="pms_product">
+            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
         </table>
+        <!--商品属性参数表-->
+        <table tableName="pms_product_attribute">
+            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+        </table>
+        <!--存储产品参数值的表-->
+        <table tableName="pms_product_attribute_value">
+            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+        </table>
+
+
     </context>
 </generatorConfiguration>
