@@ -3,6 +3,9 @@ package com.haojing.mail.mbg.model;
 import io.swagger.annotations.ApiModelProperty;
 import java.io.Serializable;
 
+/**
+ * 角色权限关系表
+ */
 public class UmsRolePermissionRelation implements Serializable {
     private Long id;
 

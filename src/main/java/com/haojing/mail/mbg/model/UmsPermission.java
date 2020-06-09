@@ -4,6 +4,9 @@ import io.swagger.annotations.ApiModelProperty;
 import java.io.Serializable;
 import java.util.Date;
 
+/**
+ * 权限表
+ */
 public class UmsPermission implements Serializable {
     private Long id;
 

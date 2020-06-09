@@ -4,6 +4,9 @@ import io.swagger.annotations.ApiModelProperty;
 import java.io.Serializable;
 import java.util.Date;
 
+/**
+ * 后台角色表
+ */
 public class UmsRole implements Serializable {
     private Long id;
 

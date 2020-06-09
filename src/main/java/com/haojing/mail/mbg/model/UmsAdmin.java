@@ -4,6 +4,9 @@ import io.swagger.annotations.ApiModelProperty;
 import java.io.Serializable;
 import java.util.Date;
 
+/**
+ * 后端用户
+ */
 public class UmsAdmin implements Serializable {
     private Long id;
 
