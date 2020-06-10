@@ -1,5 +1,6 @@
 package com.haojing.mail.component;
 
+
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.core.util.URLUtil;
 import cn.hutool.json.JSONUtil;
@@ -27,7 +28,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
 /**
  * 统一日志处理切面
  * @author jiange
@@ -45,6 +45,7 @@ public class WebLogAspect {
      */
     @Pointcut("execution(public * com.haojing.mail.controller.*.*(..))")
     public void webLog() {
+        System.out.println("test log");
     }
 
     @Before("webLog()")
